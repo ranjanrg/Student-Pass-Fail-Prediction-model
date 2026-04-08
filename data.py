@@ -40,6 +40,6 @@ print("Accuracy:", accuracy)
 
 # finding the probablity
 
-# prob = model.predict_proba(pd.DataFrame({'hours': [4]}))
+prob = model.predict_proba(pd.DataFrame({'hours': [4]}))
 
-# print(prob)
+print(prob)
